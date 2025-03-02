@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1,p{
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    color: white;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0,
+      "SHRP" 0;
+    
+}
+
+h1{
+    font-size:45px;
+}
+.blackbox .heading{
+    margin-top: -20px;
+}
+.blackbox .phoneLink{
+    color: #1ed760;
+    font-family: "Geologica", sans-serif;
+    font-size: small;
+    font-weight: normal;
+    
+}
+body{
+    
+    background-color:#121212;
+
+    /* background: linear-gradient(to bottom, #292929,#242424,#212121,#1d1d1d,
+    #0f0f0f, #060606,
+    #040404, #020202,#000000 ); */
+}
+.main{
+    margin: 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.blackbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 720px;
+    height: 95vh;
+    background-color:#121212;
+    /* background: linear-gradient(to bottom,#121212, #1d1d1d ); */
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.blackbox img{
+    padding-top: 30px;
+}
+.blackbox hr{
+    color:grey;
+    width: 50%;
+    color: gray;
+    /* font-weight: 100; */
+    /* width: 72%; */
+}
+.secondline{
+    width: 60%;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+    gap: 10px;
+}
+.one img{
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+.one button{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 43px;
+    justify-content: space-evenly;
+    gap: 0px;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size:medium;
+    color: white;
+    background-color: #121212;
+    border: 1px solid grey;
+}
+
+.btn{
+    min-height: 30px;
+    padding: auto;
+}
+.one button:hover {
+    background-color: #121212;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13px;
+    padding-right: 1px;
+}
+.btn p{
+    padding-left: 1px;
+    margin-top: 10px;
+    
+}
+.google{
+    width: 30px;
+    margin-top: -25px;
+}
+.facebook{
+    width: 40px;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+.apple{
+    width: 25px;
+    margin-top: -22px;
+    margin-left: -5px;
+}
+.spotifyLogo{
+    height: 7vh;
+    width: 6vw;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+hr{
+    color: grey;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+    gap: 15px;
+}
+.two a{
+    align-self:flex-start ;
+    font-weight:100;
+}
+.two .btn{
+    width: 320px;
+    height: 43px;
+    gap: 0px;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size:medium;
+    color: black;
+    background-color:#1ed760;
+    border: 1px solid grey;
+}
+.two label{
+    font-size: small;
+    display: flex;
+    align-self: flex-start;
+    margin-left: 0px;
+    margin-bottom: -15px;
+
+}
+.two input{
+    margin-top: -5px;
+    background-color: #121212;
+    color: white;
+    width: 310px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 3px;
+    font-weight: bolder;
+    font-size:medium;
+    color: white;
+    /* background-color: green; */
+    border: 1px solid grey;
+}
+.blackbox a{
+    color: white;
+    font-weight: bold;
+}
+
+.two button:hover {
+    background-color:#1ed760;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.two input:hover{
+    border: 1px solid white;
+}
+.para{
+    font-weight: lighter;
+}
+.para a{
+    font-weight: normal;
+}
+.para a:hover{
+    /* color: #1ed760; */
+}
+.bottumline{
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgba(187, 180, 180, 0.828)}
+.last{
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
